@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		2DDA35812A7D2F8B00ABBCD3 /* PrintingNumbersPod.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DDA35802A7D2F8B00ABBCD3 /* PrintingNumbersPod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2DDA35882A7D303300ABBCD3 /* NumbersPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDA35872A7D303300ABBCD3 /* NumbersPod.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2DDA357D2A7D2F8B00ABBCD3 /* PrintingNumbersPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PrintingNumbersPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DDA35802A7D2F8B00ABBCD3 /* PrintingNumbersPod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintingNumbersPod.h; sourceTree = "<group>"; };
+		2DDA35872A7D303300ABBCD3 /* NumbersPod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersPod.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 			isa = PBXGroup;
 			children = (
 				2DDA35802A7D2F8B00ABBCD3 /* PrintingNumbersPod.h */,
+				2DDA35872A7D303300ABBCD3 /* NumbersPod.swift */,
 			);
 			path = PrintingNumbersPod;
 			sourceTree = "<group>";
@@ -93,6 +96,7 @@
 				TargetAttributes = {
 					2DDA357C2A7D2F8B00ABBCD3 = {
 						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1430;
 					};
 				};
 			};
@@ -129,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DDA35882A7D303300ABBCD3 /* NumbersPod.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +263,8 @@
 		2DDA35852A7D2F8B00ABBCD3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -280,6 +287,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,6 +296,8 @@
 		2DDA35862A7D2F8B00ABBCD3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;

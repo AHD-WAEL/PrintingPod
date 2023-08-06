@@ -1,0 +1,11 @@
+framework module PrintingNumbersPod {
+  umbrella header "PrintingNumbersPod.h"
+
+  export *
+  module * { export * }
+}
+
+module PrintingNumbersPod.Swift {
+  header "PrintingNumbersPod-Swift.h"
+  requires objc
+}

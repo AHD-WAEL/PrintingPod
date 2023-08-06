@@ -1,0 +1,490 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PrintingNumbersPod",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NumbersPod",
+        "printedName": "NumbersPod",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NumbersPod",
+                "printedName": "PrintingNumbersPod.NumbersPod",
+                "usr": "s:18PrintingNumbersPod0bC0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18PrintingNumbersPod0bC0CACycfc",
+            "mangledName": "$s18PrintingNumbersPod0bC0CACycfc",
+            "moduleName": "PrintingNumbersPod",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getRandomNumbers",
+            "printedName": "getRandomNumbers()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Nums",
+                "printedName": "PrintingNumbersPod.Nums",
+                "usr": "s:18PrintingNumbersPod4NumsO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PrintingNumbersPod0bC0C09getRandomB0AA4NumsOyF",
+            "mangledName": "$s18PrintingNumbersPod0bC0C09getRandomB0AA4NumsOyF",
+            "moduleName": "PrintingNumbersPod",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:18PrintingNumbersPod0bC0C",
+        "mangledName": "$s18PrintingNumbersPod0bC0C",
+        "moduleName": "PrintingNumbersPod",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Nums",
+        "printedName": "Nums",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "one",
+            "printedName": "one",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrintingNumbersPod.Nums.Type) -> PrintingNumbersPod.Nums",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Nums",
+                    "printedName": "PrintingNumbersPod.Nums",
+                    "usr": "s:18PrintingNumbersPod4NumsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrintingNumbersPod.Nums.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Nums",
+                        "printedName": "PrintingNumbersPod.Nums",
+                        "usr": "s:18PrintingNumbersPod4NumsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18PrintingNumbersPod4NumsO3oneyA2CmF",
+            "mangledName": "$s18PrintingNumbersPod4NumsO3oneyA2CmF",
+            "moduleName": "PrintingNumbersPod"
+          },
+          {
+            "kind": "Var",
+            "name": "two",
+            "printedName": "two",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrintingNumbersPod.Nums.Type) -> PrintingNumbersPod.Nums",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Nums",
+                    "printedName": "PrintingNumbersPod.Nums",
+                    "usr": "s:18PrintingNumbersPod4NumsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrintingNumbersPod.Nums.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Nums",
+                        "printedName": "PrintingNumbersPod.Nums",
+                        "usr": "s:18PrintingNumbersPod4NumsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18PrintingNumbersPod4NumsO3twoyA2CmF",
+            "mangledName": "$s18PrintingNumbersPod4NumsO3twoyA2CmF",
+            "moduleName": "PrintingNumbersPod"
+          },
+          {
+            "kind": "Var",
+            "name": "three",
+            "printedName": "three",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrintingNumbersPod.Nums.Type) -> PrintingNumbersPod.Nums",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Nums",
+                    "printedName": "PrintingNumbersPod.Nums",
+                    "usr": "s:18PrintingNumbersPod4NumsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrintingNumbersPod.Nums.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Nums",
+                        "printedName": "PrintingNumbersPod.Nums",
+                        "usr": "s:18PrintingNumbersPod4NumsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18PrintingNumbersPod4NumsO5threeyA2CmF",
+            "mangledName": "$s18PrintingNumbersPod4NumsO5threeyA2CmF",
+            "moduleName": "PrintingNumbersPod"
+          },
+          {
+            "kind": "Var",
+            "name": "four",
+            "printedName": "four",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrintingNumbersPod.Nums.Type) -> PrintingNumbersPod.Nums",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Nums",
+                    "printedName": "PrintingNumbersPod.Nums",
+                    "usr": "s:18PrintingNumbersPod4NumsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrintingNumbersPod.Nums.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Nums",
+                        "printedName": "PrintingNumbersPod.Nums",
+                        "usr": "s:18PrintingNumbersPod4NumsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18PrintingNumbersPod4NumsO4fouryA2CmF",
+            "mangledName": "$s18PrintingNumbersPod4NumsO4fouryA2CmF",
+            "moduleName": "PrintingNumbersPod"
+          },
+          {
+            "kind": "Var",
+            "name": "five",
+            "printedName": "five",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PrintingNumbersPod.Nums.Type) -> PrintingNumbersPod.Nums",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Nums",
+                    "printedName": "PrintingNumbersPod.Nums",
+                    "usr": "s:18PrintingNumbersPod4NumsO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "PrintingNumbersPod.Nums.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Nums",
+                        "printedName": "PrintingNumbersPod.Nums",
+                        "usr": "s:18PrintingNumbersPod4NumsO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:18PrintingNumbersPod4NumsO4fiveyA2CmF",
+            "mangledName": "$s18PrintingNumbersPod4NumsO4fiveyA2CmF",
+            "moduleName": "PrintingNumbersPod"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Nums",
+                "printedName": "PrintingNumbersPod.Nums",
+                "usr": "s:18PrintingNumbersPod4NumsO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Nums",
+                "printedName": "PrintingNumbersPod.Nums",
+                "usr": "s:18PrintingNumbersPod4NumsO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PrintingNumbersPod4NumsO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s18PrintingNumbersPod4NumsO2eeoiySbAC_ACtFZ",
+            "moduleName": "PrintingNumbersPod",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PrintingNumbersPod4NumsO9hashValueSivp",
+            "mangledName": "$s18PrintingNumbersPod4NumsO9hashValueSivp",
+            "moduleName": "PrintingNumbersPod",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PrintingNumbersPod4NumsO9hashValueSivg",
+                "mangledName": "$s18PrintingNumbersPod4NumsO9hashValueSivg",
+                "moduleName": "PrintingNumbersPod",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:18PrintingNumbersPod4NumsO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s18PrintingNumbersPod4NumsO4hash4intoys6HasherVz_tF",
+            "moduleName": "PrintingNumbersPod",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[PrintingNumbersPod.Nums]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Nums",
+                    "printedName": "PrintingNumbersPod.Nums",
+                    "usr": "s:18PrintingNumbersPod4NumsO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18PrintingNumbersPod4NumsO8allCasesSayACGvpZ",
+            "mangledName": "$s18PrintingNumbersPod4NumsO8allCasesSayACGvpZ",
+            "moduleName": "PrintingNumbersPod",
+            "static": true,
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[PrintingNumbersPod.Nums]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Nums",
+                        "printedName": "PrintingNumbersPod.Nums",
+                        "usr": "s:18PrintingNumbersPod4NumsO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18PrintingNumbersPod4NumsO8allCasesSayACGvgZ",
+                "mangledName": "$s18PrintingNumbersPod4NumsO8allCasesSayACGvgZ",
+                "moduleName": "PrintingNumbersPod",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:18PrintingNumbersPod4NumsO",
+        "mangledName": "$s18PrintingNumbersPod4NumsO",
+        "moduleName": "PrintingNumbersPod",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[PrintingNumbersPod.Nums]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Nums",
+                        "printedName": "PrintingNumbersPod.Nums",
+                        "usr": "s:18PrintingNumbersPod4NumsO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/ahdwael\/Desktop\/PrintingNumbersPod\/PrintingNumbersPod\/NumbersPod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 260,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ahdwael\/Desktop\/PrintingNumbersPod\/PrintingNumbersPod\/NumbersPod.swift",
+      "kind": "IntegerLiteral",
+      "offset": 264,
+      "length": 1,
+      "value": "4"
+    }
+  ]
+}

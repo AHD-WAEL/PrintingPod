@@ -1,0 +1,32 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios16.4 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PrintingNumbersPod
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import PrintingNumbersPod
+import Swift
+import _Concurrency
+import _StringProcessing
+public class NumbersPod {
+  public init()
+  public func getRandomNumbers() -> PrintingNumbersPod.Nums
+  @objc deinit
+}
+public enum Nums : Swift.CaseIterable {
+  case one
+  case two
+  case three
+  case four
+  case five
+  public static func == (a: PrintingNumbersPod.Nums, b: PrintingNumbersPod.Nums) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public typealias AllCases = [PrintingNumbersPod.Nums]
+  public static var allCases: [PrintingNumbersPod.Nums] {
+    get
+  }
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension PrintingNumbersPod.Nums : Swift.Equatable {}
+extension PrintingNumbersPod.Nums : Swift.Hashable {}
